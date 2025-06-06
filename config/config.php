@@ -2,7 +2,7 @@
     
     $user = "root";
     
-    $password = "12345";
+    $password = "";
 
     $dsn = "mysql:host=localhost;dbname=event_management;port=3306";
 
