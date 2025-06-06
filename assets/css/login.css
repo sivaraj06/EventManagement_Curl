@@ -1,0 +1,56 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url('images/blur.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    height: 390px;
+    width: 421px;
+    background-color:#E16331;
+    padding-top:40px;
+    border-radius: 10px;
+    margin:139px auto 200px auto;
+    box-sizing: border-box;
+    box-shadow: 5px 4px 3px #ccc;
+}
+.container input{
+    border-radius: 20px;
+    margin:10px;
+    padding: 10px 50px 10px 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container button{
+    border-radius: 20px;
+    margin-top:20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container button:hover{
+    background-color: rgb(117, 3, 3);
+    color:white;
+    font-weight: bold;
+}
+.container a{
+    color:#A01712;
+    font-weight:bold;
+    font-size: 18px;
+}
+.container a:hover{
+    color:white;
+}
+.message{
+    display:inline;
+    position:absolute;
+    top: 23px;
+    right: 13px;
+    color:red;
+    background-color:white;
+    padding:7px;
+    border-radius:7px;
+}
